@@ -26,6 +26,7 @@ services:
       - "8080:8080"   # HBase Rest
       - "7077:7077"   # Spark Master
       - "3306:3306"   # MYSQL 
+      - "10000:10000" # HiveServer
     tty: true
     stdin_open: true
     volumes: 
